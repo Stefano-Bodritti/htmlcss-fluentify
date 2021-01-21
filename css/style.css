@@ -33,7 +33,6 @@ header {
 
 /* barra navigazione */
 .container.top {
-  position: relative;
   padding: 15px 0;
   font-size: 13px;
 }
@@ -124,6 +123,7 @@ section.grey-bg {
   background-color: #d3d3d3;
   text-align: center;
   padding: 33px 0;
+  margin-bottom: 40px;
 }
 
 .grey-bg h3 {
@@ -135,3 +135,32 @@ section.grey-bg {
   color: #808080;
   font-size: 18px;
 }
+/* fine sfondo grigio */
+
+/* blocco a 3 colonne */
+section.container .col {
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 0 30px;
+}
+
+.col img {
+  height: 200px;
+}
+
+.col h2 {
+  color: #7cbb02;
+  font-size: 27px;
+  margin-top: 15px;
+}
+
+.col hr {
+  width: 70px;
+  margin: 15px auto;
+}
+
+.col p {
+  color: #808080;
+}
+/* fine blocco a 3 colonne */
