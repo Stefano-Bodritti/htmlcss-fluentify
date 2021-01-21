@@ -5,26 +5,37 @@
   box-sizing: border-box;
 }
 
+/* font */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* clearfix */
 .clearfix::after {
   content: '';
   display: block;
   clear: both;
 }
 
-header {
-  background-color: #0C325A;
-}
-
 .container {
   width: 80%;
   margin: auto;
+}
+
+/* header */
+header {
+  background-color: #0C325A;
+  background-image: url('../img/background-header.png');
+  background-size: 950px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+/* barra navigazione */
+.container.top {
   position: relative;
   padding: 15px 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .logo, nav, .menu {
@@ -63,3 +74,46 @@ nav li a, .menu li a {
   width: 40%;
   text-align: right;
 }
+
+.button {
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.button.blue {
+  border: 1px solid white;
+  padding: 6px 30px;
+}
+
+.button.green {
+  padding: 7px 14px;
+  background-color: #7cbb02;
+}
+/* fine barra navigazione */
+/* banner */
+.container.banner {
+  height: 450px;
+  position: relative;
+}
+
+.banner .banner-text {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-text h1 {
+  font-size: 40px;
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.button.big {
+  padding: 25px 20px;
+}
+/* fine banner */
+/* fine header */
