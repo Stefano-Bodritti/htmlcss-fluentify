@@ -28,7 +28,7 @@ header {
   background-image: url('../img/background-header.png');
   background-size: 65%;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 110% 110%;
 }
 
 /* barra navigazione */
@@ -121,7 +121,7 @@ nav li a, .menu li a {
 section.grey-bg {
   background-color: #d3d3d3;
   text-align: center;
-  padding: 33px 0;
+  padding: 40px 0;
   margin-bottom: 40px;
 }
 
@@ -226,3 +226,9 @@ select {
   margin-right: 20px;
 }
 /* fine blocco sfondo grigio 2 */
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+}
