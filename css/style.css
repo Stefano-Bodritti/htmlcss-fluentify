@@ -191,3 +191,31 @@ section.container .col-2 {
   font-size: 14px;
 }
 /* fine blocco a 2 colonne */
+/* blocco sfondo grigio 2 */
+.grey-bg-2 {
+  background-color: #d3d3d3;
+}
+
+.container .col-3 {
+  float: left;
+  width: 50%;
+  padding: 60px;
+}
+
+.col-3.right {
+  color: #808080;
+}
+
+label {
+  padding: 0 20px;
+}
+
+select {
+  border: none;
+  border-bottom: 1px solid grey;
+  color: #808080;
+  background-color: #d3d3d3;
+  width: 150px;
+  margin-right: 20px;
+}
+/* fine blocco sfondo grigio 2 */
